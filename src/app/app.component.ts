@@ -8,10 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent  {
   
-  products: [] = [
-    {name: "Phone XL", description : "A large phone with one of the best screens"},
-    {name: "Phone Mini", description: "A great phone with one of the best cameras"},
-    {name: "Phone Standard"},
+  products  = [
+    {name: "Phone XL", description : "A large phone with one of the best screens", price:799},
+    {name: "Phone Mini", description: "A great phone with one of the best cameras", price:699},
+    {name: "Phone Standard", price:299},
     ];
     share() {
     window.alert('The product has been shared!');
